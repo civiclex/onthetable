@@ -8,12 +8,11 @@
 // load the custom css
     <link rel="stylesheet" href="css/basic.css"/>
 
-// load the javascript libraries specifically Leaflet and Stamen
+// load the javascript libraries specifically Leaflet
    
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
-    <script src="https://maps.stamen.com/js/tile.stamen.js"></script> 
     
 // load the Leaflet CSS stylesheet
 
@@ -57,8 +56,14 @@
         });
                
     //Create the baselayer and add it to the map
-        var layer =new L.StamenTileLayer("toner-lite");
-        map.addLayer(layer);     
+        var baselayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
+	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	subdomains: 'abcd',
+	minZoom: 0,
+	maxZoom: 20,
+	ext: 'png'
+});
+        map.addLayer(baselayer);     
         
     //Create the census tract layer from the geojson
     //Need to add an on mouse over that makes the name appear
