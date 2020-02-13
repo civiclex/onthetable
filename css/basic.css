@@ -1,0 +1,44 @@
+body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            font-family: Lato, sans-serif;
+            color: '#4C4C33';
+        }
+        header {
+            padding: 6px 10%;
+        }
+        h1 {
+            position: absolute;
+            z-index: 100;
+            top: 10px;
+            left: 60px;
+            padding: 8px 15px;
+            margin: 0;
+            color: whitesmoke;
+            font-size: 1.3em;
+            background: rgba(25,25,25,0.8);
+            border-radius: 0; 
+            font-weight: normal;
+        }
+        .leaflet-popup-content-wrapper {
+            opacity: 0.9;
+            border-radius: 5px;
+        }
+        #map {            
+            position: absolute;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+        }
+        .legend {
+            line-height: 18px;
+            color: #555;
+        }
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+}
