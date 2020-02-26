@@ -12,7 +12,7 @@
       "properties": {
         "OBJECTID": 1,
         "ZIPCODE": "40502",
-        "Count": 15
+        "Count": 17
       },
       "geometry": {
         "type": "Polygon",
@@ -1266,8 +1266,8 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 2,
-        "ZIPCODE": "40503",
-        "Count": 6
+        "ZIPCODE": 40503,
+        "Count": 9
       },
       "geometry": {
         "type": "Polygon",
@@ -2361,8 +2361,8 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 3,
-        "ZIPCODE": "40504",
-        "Count": 6
+        "ZIPCODE": 40504,
+        "Count": 11
       },
       "geometry": {
         "type": "Polygon",
@@ -8000,8 +8000,8 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 4,
-        "ZIPCODE": "40505",
-        "Count": 8
+        "ZIPCODE": 40505,
+        "Count": 13
       },
       "geometry": {
         "type": "Polygon",
@@ -12499,8 +12499,8 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 5,
-        "ZIPCODE": "40507",
-        "Count": 6
+        "ZIPCODE": 40507,
+        "Count": 7
       },
       "geometry": {
         "type": "Polygon",
@@ -12846,8 +12846,8 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 6,
-        "ZIPCODE": "40508",
-        "Count": 12
+        "ZIPCODE": 40508,
+        "Count": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -25813,8 +25813,8 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 7,
-        "ZIPCODE": "40509",
-        "Count": 7
+        "ZIPCODE": 40509,
+        "Count": 8
       },
       "geometry": {
         "type": "Polygon",
@@ -33688,8 +33688,8 @@
       "type": "Feature",
       "properties": {
         "OBJECTID": 8,
-        "ZIPCODE": "40510",
-        "Count": 0
+        "ZIPCODE": 40510,
+        "Count": 3
       },
       "geometry": {
         "type": "Polygon",
@@ -53589,7 +53589,7 @@
       "properties": {
         "OBJECTID": 12,
         "ZIPCODE": "40515",
-        "Count": 6
+        "Count": 8
       },
       "geometry": {
         "type": "Polygon",
@@ -61648,7 +61648,7 @@
       "properties": {
         "OBJECTID": 13,
         "ZIPCODE": "40516",
-        "Count": 0
+        "Count": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -65111,7 +65111,7 @@
       "properties": {
         "OBJECTID": 14,
         "ZIPCODE": "40517",
-        "Count": 1
+        "Count": 14
       },
       "geometry": {
         "type": "Polygon",
